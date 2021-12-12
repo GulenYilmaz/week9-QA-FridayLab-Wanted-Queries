@@ -1,0 +1,36 @@
+Wanted Queries
+This project is to create a web form that will generate the text as if to submit to the NCIC to add, edit, or delete a warrant.
+
+It is assumed that if incorrect entry occurs, the proper error message will be displayed to assist the user in correcting their mistakes.
+
+Menu
+There should be a popout menu at the top left to navigate between the Home, Enter, Modify, and Cancel screens.
+
+The requirements are as follows for each screen, and the results:
+Home
+Enter Wanted Requirements
+Modify Wanted Requirements
+Cancel Wanted Requirements
+Error Handling
+Any error in entry should have a contexcualized error displayed in a bulleted list the same area a valid query would have appeared. No assembled query will appear, instead you will see a message 'No results generated due to error.' Any field that has an incorrect entry will also be highlighted in red until emptied out or resubmitted.
+
+See below for an example of each error message.
+
+Required field missing
+Invalid characters entered
+Invalid length
+Invalid date
+
+Environment
+The forms should be usable in any modern browser, mobile or desktop, but will be supported mainly in the desktop version of Chrome. It is possible bugs will persist in other versions/browsers.
+
+Change Logs
+Current Version: 1.1
+
+Change Log for 1.1
+Contributions
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+
+Copyright
+© DevMountain LLC, 2018. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+
